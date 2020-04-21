@@ -1,0 +1,17 @@
+foliantcontrib.pandoc
+foliantcontrib.anchors
+foliantcontrib.csvtables
+foliantcontrib.escapecode
+foliantcontrib.flags
+foliantcontrib.glossary
+foliantcontrib.graphviz
+foliantcontrib.includes
+foliantcontrib.macros
+foliantcontrib.mermaid
+foliantcontrib.multilinetables
+foliantcontrib.plantuml
+foliantcontrib.runcommands
+pandoc-fignos
+pandoc-eqnos
+pandoc-tablenos
+pandoc-secnos

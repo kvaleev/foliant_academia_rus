@@ -1,0 +1,59 @@
+title: Магистерская работа
+
+chapters:
+    - master_thesis/1_intro.md
+    - master_thesis/2_main.md
+    - master_thesis/3_extra.md
+    - master_thesis/4_outro.md
+    - master_thesis/5_references.md
+
+preprocessors:
+    - anchors
+    - csvtables
+    - escapecode
+    - flags
+    - graphviz
+    - includes
+    - macros
+    - mermaid
+    - multilinetables
+    - plantuml
+    - runcommands
+
+backend_config:
+  pandoc:
+    reference_docx: !path templates/template.docx
+    params:
+      pdf-engine: xelatex
+      toc: true
+      toc-depth: 4
+      filter: pandoc-xnos
+      bibliography: templates/refs.bib 
+      csl: templates/gost-numeric.csl
+      metadata: fignos-caption-name=Рис.
+  markdown_extensions:
+    - markdown_strict
+    - simple_tables
+    - multiline_tables
+    - grid_tables
+    - pipe_tables
+    - table_captions
+    - fenced_code_blocks
+    - line_blocks
+    - definition_lists
+    - all_symbols_escapable
+    - strikeout
+    - superscript
+    - subscript
+    - lists_without_preceding_blankline
+    - implicit_figures
+    - raw_tex
+    - citations
+    - tex_math_dollars
+    - header_attributes
+    - auto_identifiers
+    - startnum+footnotes
+    - inline_notes
+    - fenced_code_attributes
+    - intraword_underscores
+    - yaml_metadata_block
