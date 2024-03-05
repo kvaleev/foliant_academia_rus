@@ -28,9 +28,10 @@ backend_config:
       toc: true
       toc-depth: 4
       filter: pandoc-xnos
-      bibliography: templates/refs.bib 
+      bibliography: src/master_thesis/refs.bib
       csl: templates/gost-numeric.csl
-      metadata: fignos-caption-name=Рис.
+      metadata-file: templates/xnos-meta.yaml
+      citeproc: true
   markdown_extensions:
     - markdown_strict
     - simple_tables

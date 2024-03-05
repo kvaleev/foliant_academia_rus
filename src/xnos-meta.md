@@ -1,0 +1,4 @@
+---
+fignos-caption-name: 'Рис'
+fignos-caption-separator: '.'
+...
