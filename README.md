@@ -45,13 +45,15 @@ chapters:
 
 Список используемых материалов автоматически добавится в конец файла.
 
-Форматирование этого списка можно настроить подключением [файла с конфигурацией стилей](https://citationstyles.org) в `foliant.yml`: `csl: templates/gost-numeric.csl`
+Форматирование этого списка можно настроить подключением [файла с конфигурацией стилей](https://citationstyles.org) в `foliant.yml`: `csl: templates/gost-numeric.csl`. Больше стилей можно [найти здесь](https://github.com/citation-style-language/styles).
 
 ## Ссылки на изображения, таблицы, формулы
 
 В образе подключено дополнение [pandoc-xnos](https://github.com/tomduck/pandoc-xnos) с помощью которого можно автоматически нумеровать и ссылаться на изображения, таблицы, формулы.
 
 Подробнее, как им пользоваться, [написано здесь](https://github.com/tomduck/pandoc-fignos).
+
+> С нумерацией формул в Word-документе может быть проблема, см. [ эту задачу](https://github.com/tomduck/pandoc-eqnos/issues/62).
 
 ## Ещё подключённые фичи
 

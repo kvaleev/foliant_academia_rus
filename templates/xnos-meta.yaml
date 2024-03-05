@@ -1,4 +1,6 @@
 ---
 fignos-caption-name: 'Рис'
 fignos-caption-separator: 'period'
+tablenos-caption-name: 'Таблица'
+tablenos-caption-separator: 'period'
 ...
