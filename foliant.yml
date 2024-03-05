@@ -1,4 +1,4 @@
-title: Магистерская работа
+title: Научная работа
 
 chapters:
     - master_thesis/1_intro.md
@@ -22,7 +22,7 @@ preprocessors:
 
 backend_config:
   pandoc:
-    reference_docx: !path templates/template.docx
+    reference_docx: !path templates/gost-2-105.docx
     params:
       pdf-engine: xelatex
       toc: true
@@ -30,7 +30,7 @@ backend_config:
       filter: pandoc-xnos
       bibliography: src/master_thesis/refs.bib
       csl: templates/gost-numeric.csl
-      metadata-file: templates/xnos-meta.yaml
+      metadata-file: templates/metadata.yaml
       citeproc: true
   markdown_extensions:
     - markdown_strict
